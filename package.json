@@ -1,19 +1,20 @@
 {
-  "name": "react-npm-boilerplate",
-  "version": "1.0.1",
-  "description": "Boilerplate for creating React Npm packages with ES2015",
+  "name": "simple-react-file-uploader",
+  "version": "1.0.0",
+  "description": "React Component for single or multiple file upload.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/juliancwirko/react-npm-boilerplate.git"
+    "url": "https://github.com/mhnpd/simple-react-file-uploader"
   },
-  "author": "Julian Ćwirko",
+  "author": "Mohan Pd.",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/juliancwirko/react-npm-boilerplate/issues"
+    "url": "https://github.com/mhnpd/simple-react-file-uploader/issues"
   },
-  "homepage": "https://github.com/juliancwirko/react-npm-boilerplate",
+  "homepage": "https://github.com/mhnpd/simple-react-file-uploader",
   "keywords": [
     "react-component",
+    "react-image-uploader",
     "react"
   ],
   "options": {

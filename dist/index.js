@@ -77,13 +77,13 @@
         if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass;
     }
 
-    var MyComponent = function (_React$Component) {
-        _inherits(MyComponent, _React$Component);
+    var FileInput = function (_React$Component) {
+        _inherits(FileInput, _React$Component);
 
-        function MyComponent(props) {
-            _classCallCheck(this, MyComponent);
+        function FileInput(props) {
+            _classCallCheck(this, FileInput);
 
-            var _this = _possibleConstructorReturn(this, (MyComponent.__proto__ || Object.getPrototypeOf(MyComponent)).call(this, props));
+            var _this = _possibleConstructorReturn(this, (FileInput.__proto__ || Object.getPrototypeOf(FileInput)).call(this, props));
 
             _this.handleFileUpload = function (e) {
                 e.preventDefault();
@@ -151,7 +151,7 @@
             return _this;
         }
 
-        _createClass(MyComponent, [{
+        _createClass(FileInput, [{
             key: 'componentDidMount',
             value: function componentDidMount() {
                 window.addEventListener('drop', this.handleFileUpload);
@@ -218,7 +218,7 @@
             }
         }]);
 
-        return MyComponent;
+        return FileInput;
     }(_react2.default.Component);
 
     MyComponent.propTypes = {
@@ -228,5 +228,5 @@
 
     };
 
-    exports.default = MyComponent;
+    exports.default = FileInput;
 });
