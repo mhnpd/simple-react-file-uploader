@@ -50,7 +50,7 @@ render() {
 
 | Props | Required/Optional | Description |
 | ------ | ------ | ------ |
-| onChane | required | props accepts a function. Function is called when file are added or removed.
+| onChange | required | props accepts a function. Function is called when file are added or removed.
 | multiple | optional | Props accepts boolean value. If true multiple files are accepted else single file accepted. By default its false.
 | accept | optional | Provide a accepted file type list.
 
