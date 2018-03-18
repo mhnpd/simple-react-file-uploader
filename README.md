@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/33191954/33469873-6f57e560-d68d-11e7-8036-f2cb63175cc7.png" alt="title"/>
+</p>
+
+
 # Simple React File Uploader
 
 Simple React File Uploader is a react component for uploading multiple or single file.
