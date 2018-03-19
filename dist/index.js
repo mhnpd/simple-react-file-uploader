@@ -221,7 +221,7 @@
         return FileInput;
     }(_react2.default.Component);
 
-    MyComponent.propTypes = {
+    FileInput.propTypes = {
         multiple: _propTypes2.default.bool,
         accept: _propTypes2.default.string,
         onChange: _propTypes2.default.func.isRequired
