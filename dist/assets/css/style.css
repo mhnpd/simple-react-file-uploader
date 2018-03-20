@@ -21,7 +21,7 @@
     margin-bottom: 30px;
     border: 20px solid rgba(0, 0, 0, 0);
     border-radius: 3px;
-    /* border-image: url('../img/border-image.png') 25 repeat; */
+    border-image: url('../img/border-image.png') 25 repeat;
     text-align: center;
     text-transform: uppercase;
 
