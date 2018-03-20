@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/local/bin/node /usr/local/bin/yarn run storybpok
+  /usr/local/bin/node /usr/local/bin/yarn start
 
 PATH: 
   /home/mohan/bin:/home/mohan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
@@ -16,7 +16,7 @@ Platform:
 npm manifest: 
   {
     "name": "simple-react-file-uploader",
-    "version": "1.1.2",
+    "version": "1.4.0",
     "description": "React Component for single or multiple file upload.",
     "repository": {
       "type": "git",
@@ -90,7 +90,7 @@ Lockfile:
   No lockfile
 
 Trace: 
-  Error: Command "storybpok" not found. Did you mean "storybook"?
+  Error: Command "start" not found.
       at new MessageError (/usr/local/lib/node_modules/yarn/lib/cli.js:186:110)
       at /usr/local/lib/node_modules/yarn/lib/cli.js:87307:17
       at Generator.next (<anonymous>)

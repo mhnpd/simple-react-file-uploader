@@ -146,17 +146,15 @@
                 files: []
             };
             _this.handleFileSelect = _this.handleFileSelect.bind(_this);
-            // this.handleFileUpload=this.handleFileUpload.bind(this)
-
             return _this;
         }
 
         _createClass(FileInput, [{
             key: 'componentDidMount',
             value: function componentDidMount() {
-                window.addEventListener('drop', this.handleFileUpload);
+                window.addEventListener('simple-react-file-upload', this.handleFileUpload);
                 window.addEventListener('dragover', this.handleFileUpload);
-                document.getElementById('drop').addEventListener('drop', this.handleFileUpload);
+                document.getElementById('simple-react-file-upload').addEventListener('drop', this.handleFileUpload);
             }
         }, {
             key: 'handleFileSelect',
@@ -176,13 +174,8 @@
                         { key: key },
                         _react2.default.createElement(
                             'div',
-                            null,
+                            { id: 'simple-react-file-uploader-icon' },
                             _react2.default.createElement('img', { src: _file2.default, alt: files[key].name, id: 'file' }),
-                            _react2.default.createElement(
-                                'p',
-                                { className: 'file-type' },
-                                files[key].type
-                            ),
                             _react2.default.createElement(
                                 'p',
                                 { className: 'file-name' },
@@ -196,11 +189,11 @@
                 });
 
                 return _react2.default.createElement(
-                    'form',
-                    { id: 'upload' },
+                    'div',
+                    { id: 'simple-react-file-upload', className: this.props.className },
                     _react2.default.createElement(
                         'div',
-                        { id: 'drop', onDrop: this.handleFileDrop, onDragOver: this.handleFileDrop },
+                        { id: 'simple-react-file-drop', onDrop: this.handleFileDrop, onDragOver: this.handleFileDrop },
                         'Drop Here',
                         _react2.default.createElement(
                             'a',
@@ -224,7 +217,8 @@
     FileInput.propTypes = {
         multiple: _propTypes2.default.bool,
         accept: _propTypes2.default.string,
-        onChange: _propTypes2.default.func.isRequired
+        onChange: _propTypes2.default.func.isRequired,
+        className: _propTypes2.default.string
 
     };
 
