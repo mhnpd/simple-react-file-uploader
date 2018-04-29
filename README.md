@@ -73,7 +73,9 @@ render() {
 
 ### Todos
 
- - Feedback
+ - passing style
+ - passing icon and icon type
+ - layout props
 
 License
 ----
