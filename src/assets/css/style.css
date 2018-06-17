@@ -1,5 +1,5 @@
 
-#simple-react-file-upload{
+.simple-react-file-upload{
     font-family:'PT Sans Narrow', sans-serif;
     background-color:#373a3d;
 
@@ -15,7 +15,7 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
-#simple-react-file-drop{
+.simple-react-file-drop{
     background-color: #2E3134;
     padding: 40px 50px;
     margin-bottom: 30px;
@@ -30,7 +30,7 @@
     color:#7f858a;
 }
 
-#simple-react-file-drop a{
+.simple-react-file-drop a{
     background-color:#007a96;
     padding:12px 26px;
     color:#fff;
@@ -42,22 +42,22 @@
     line-height:1;
 }
 
-#simple-react-file-drop a:hover{
+.simple-react-file-drop a:hover{
     background-color:#0986a3;
 }
 
-#simple-react-file-drop input{
+.simple-react-file-drop input{
     display:none;
 }
 
-#simple-react-file-upload ul{
+.simple-react-file-upload ul{
     list-style:none;
     margin:0 -30px;
     border-top:1px solid #2b2e31;
     border-bottom:1px solid #3d4043;
 }
 
-#simple-react-file-upload ul li{
+.simple-react-file-upload ul li{
 
     background-color:#333639;
 
@@ -72,7 +72,7 @@
     position: relative;
 }
 
-#simple-react-file-upload ul li input{
+.simple-react-file-upload ul li input{
     display: none;
 }
 
@@ -89,24 +89,24 @@
     text-align: left;
 }
 
-#simple-react-file-uploader-icon {
+.simple-react-file-uploader-icon {
     margin-left: -29px
 }
 
-#simple-react-file-upload ul li i{
+.simple-react-file-upload ul li i{
     font-weight: normal;
     font-style:normal;
     color:#7f7f7f;
     display:block;
 }
 
-#simple-react-file-upload ul li canvas{
+.simple-react-file-upload ul li canvas{
     top: 15px;
     left: 32px;
     position: absolute;
 }
 
-#simple-react-file-upload ul li span{
+.simple-react-file-upload ul li span{
     width: 15px;
     height: 12px;
     background: url('../img/icons.png') no-repeat;
@@ -119,7 +119,7 @@
     border: 0.5px solid;
 }
 
-#file {
+.file {
     width: 50px;
     height: 50px;
     margin-left: -220px;

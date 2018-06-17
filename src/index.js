@@ -88,8 +88,8 @@ class FileInput extends React.Component {
         let fileList = this.state.files && Object.keys(files).map(key=>{
             return (
             <li key={key}>
-            <div id="simple-react-file-uploader-icon">
-                <img src={FileIcon} alt={files[key].name} id="file"/>
+            <div className='simple-react-file-uploader-icon' id="simple-react-file-uploader-icon">
+                <img className='file'  src={FileIcon} alt={files[key].name} id="file"/>
                 {/* <p className="file-type">{files[key].type}</p> */}
                <p className="file-name">{files[key].name}</p>
               <span onClick={()=>{this.handleDeleteFile(key)}}></span>
@@ -99,8 +99,8 @@ class FileInput extends React.Component {
         })
 
         return (
-            <div id="simple-react-file-upload" className={this.props.className}>
-			<div id="simple-react-file-drop" onDrop={this.handleFileDrop} onDragOver={this.handleFileDrop}>
+          <div id="simple-react-file-upload" className={this.props.className ? `${this.props.className} simple-react-file-upload` : 'simple-react-file-upload'}>
+			<div className='simple-react-file-drop'  id="simple-react-file-drop" onDrop={this.handleFileDrop} onDragOver={this.handleFileDrop}>
                 Drop Here
 				<a onClick={this.handleFileSelect}>Browse</a>
 				<input type="file" ref="fileUploader" accept={this.props.accept} onChange={this.handleFileUpload} multiple={this.props.multiple?true:false} name="upl" />
