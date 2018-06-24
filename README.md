@@ -1,6 +1,8 @@
 
 # Simple React File Uploader
 
+[![Maintainability](https://api.codeclimate.com/v1/badges/cb15749f5f6c56df882e/maintainability)](https://codeclimate.com/github/mhnpd/simple-react-file-uploader/maintainability)
+
 Simple React File Uploader is a react component for uploading multiple or single file.
 
 
